@@ -4,22 +4,18 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/assisDev/Starla?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/assisDev/Starla?style=for-the-badge)
 
-<img src="https://user-images.githubusercontent.com/71731452/111242959-f4ba0e00-85de-11eb-873b-32ca87556165.gif" alt="gif-explicativa"> <img src="https://user-images.githubusercontent.com/71731452/111244354-7d39ae00-85e1-11eb-9e44-b1116645414e.png" alt="Starla"> 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71731452/111244354-7d39ae00-85e1-11eb-9e44-b1116645414e.png" alt="Starla" float="rigth" width="400"> 
+</p>
 
-> Ola 👋, me chamo Starla.
+# Ola 👋, me chamo Starla.
 
-> Fui desenvolvida para criar figurinhas no whatsapp, consigo criar figurinhas a partir de gifs ou imagens.
+> Fui desenvolvida para criar figurinhas no whatsapp, consigo criar figurinhas a partir de gifs ou imagens. 
 > Por enquanto eu só sei fazer isso mas eu acredito que seja de grande ajuda para a humanidade.
 
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/71731452/111242959-f4ba0e00-85de-11eb-873b-32ca87556165.gif" alt="gif-explicativa" width="200">
+</p>
 
 ## 💻 Pré-requisitos
 
@@ -32,28 +28,23 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o Starla, siga estas etapas:
 
-Linux:
+* Linux:
 ```
 sudo apt install ffmpeg
-```
-```
 sudo apt-get install -y graphicsmagick
-```
-```
 sudo apt install chromium-browser
 ```
 
-macOS:
+* macOS:
 ```
 brew install ffmpeg
-```
-```
 brew install graphicsmagick
 ```
 
-Apos isso dentro da pasta server do projeto executamos o comando
+* Instale as depedências:
 
 ```
+cd ./server
 npm install
 ```
 
@@ -61,23 +52,30 @@ npm install
 
 Para usar Starla, siga estas etapas:
 
-no root do projeto rode o comando e apos isso escaneie o qr code.
+* No root do projeto rode o comando.
 ```
 ./run server
 ```
-<img src="https://user-images.githubusercontent.com/71731452/136301244-527fc68b-1877-4b10-8c6c-605655cd71e5.png" alt="qr-code">
+* Escaneie o QR code:
+ <img src="https://user-images.githubusercontent.com/71731452/136301244-527fc68b-1877-4b10-8c6c-605655cd71e5.png" alt="qr-code" width="100">
 
 Comandos nos chat de grupos:
 
-`#figurinha` Utilize esse comando de legenda que sera criado uma figurinha, tambem é possivel criar figurinhas animadas com videos ou gifs.
+> `#figurinha` Utilize esse comando de legenda que sera criado uma figurinha, tambem é possivel criar figurinhas animadas com videos ou gifs.
 
-<img src="https://user-images.githubusercontent.com/71731452/125382649-6ecf8900-e36c-11eb-909f-27de01dfc5f8.gif" alt="exemplo-grupo">
+<img src="https://user-images.githubusercontent.com/71731452/125382649-6ecf8900-e36c-11eb-909f-27de01dfc5f8.gif" alt="exemplo-grupo" width="200">
 
 Comandos no chat privado:
 
-`Mande videos, gifs e imagens para receber uma figurinha`
+> `Mande videos, gifs e imagens para receber uma figurinha`
 
-<img src="https://user-images.githubusercontent.com/71731452/125382658-71ca7980-e36c-11eb-81af-01106799f032.gif" alt="exemplo-privado">
+<img src="https://user-images.githubusercontent.com/71731452/125382658-71ca7980-e36c-11eb-81af-01106799f032.gif" alt="exemplo-privado" width="200">
+
+## 🗃️ Diagrama
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/65235458/141867787-eb567b0b-8299-478c-98b7-006326178cd8.jpg" alt="arquitetura" width="500">
+</p>
 
 ## 🤝 Colaboradores
 
